@@ -1,6 +1,7 @@
 package DesignPatterns.Singleton;
 
 import org.junit.Assert;
+import org.junit.Test;
 
 public class SingletonMain {
 
@@ -9,23 +10,23 @@ public class SingletonMain {
 
         BasicEagerSingleton basicSingleton2 = BasicEagerSingleton.getInstance();
 
-        System.out.println(basicSingleton);
-        System.out.println(basicSingleton2);
-
-        basicSingleton.setNumber(2);
-
-        System.out.println(basicSingleton.getNumber());
-        System.out.println(basicSingleton2.getNumber());
-
-        basicSingleton2.setNumber(4);
-
-        System.out.println(basicSingleton.getNumber());
-        System.out.println(basicSingleton2.getNumber());
+//        System.out.println(basicSingleton);
+//        System.out.println(basicSingleton2);
+//
+//        basicSingleton.setNumber(2);
+//
+//        System.out.println(basicSingleton.getNumber());
+//        System.out.println(basicSingleton2.getNumber());
+//
+//        basicSingleton2.setNumber(4);
+//
+//        System.out.println(basicSingleton.getNumber());
+//        System.out.println(basicSingleton2.getNumber());
     }
 
 
 
-    //@Test
+    @Test
     public void testMethod(){
         BasicEagerSingleton basicSingleton = BasicEagerSingleton.getInstance();
 
